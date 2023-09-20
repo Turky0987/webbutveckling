@@ -1,1 +1,37 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
 
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ff9900;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styles for the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ff9900;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
